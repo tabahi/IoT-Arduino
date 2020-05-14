@@ -1,0 +1,19 @@
+
+IR contact less thermometer:
+MLX90614ESF IR Thermometer
+
+
+
+A Relay
+
+
+LEDs for indicating temperature
+
+RF:
+http://uk.farnell.com/quasar/qfm-rx1-433/rf-mod-receiver-fm-fsk-434-20mhz/dp/1517427?ost=151-7427&selectedCategoryId=&categoryName=All+Categories&categoryNameResp=All+Categories
+
+http://uk.farnell.com/quasar/qfm-tx1-433/rf-mod-transmitter-fm-fsk-434/dp/1517426?ost=151+7426&selectedCategoryId=&categoryName=All+Categories&categoryNameResp=All+Categories
+
+
+
+

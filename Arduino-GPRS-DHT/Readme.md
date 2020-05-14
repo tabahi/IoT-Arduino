@@ -1,0 +1,1 @@
+IoT temperature logging using arduino, DHT sensor and GPRSS SIM9000 module.

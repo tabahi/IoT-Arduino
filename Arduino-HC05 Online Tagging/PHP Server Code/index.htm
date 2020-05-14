@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="stylesheet" type="text/css" href="./css/div.css" />
+  
+	
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>
+		 function autoRefresh_div()
+		 {
+			  $("#currenttable").load("preview.php");// a function which will load data from other file after x seconds
+		  }
+		 
+		  setInterval('autoRefresh_div()', 10000); // refresh div after 5 secs
+            </script>
+	
+<title>Bluetooth Logs</title>
+	
+  </head>
+  
+  
+  
+  <body onload="autoRefresh_div()" style="background-color:#FFFFFF">  
+	
+	<div id="topheader">
+		<h1 id="h1">Bluetooth Logs</h1>
+	</div>
+	
+	<div id="wrapper">
+		<div id="currenttable">
+		<p>Wait<p>		
+		</div>
+	</div>
+	
+	
+	
+  </body>
+</html>
